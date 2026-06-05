@@ -2,7 +2,7 @@ Package: com.emoticonyt.veteris
 Version: 1.7.2-B
 Architecture: iphoneos-arm
 Maintainer: Emoticon
-Depends: mobilesubstrate, preferenceloader, net.angelxwind.appsyncunified, com.emoticonyt.redirect
+Depends: mobilesubstrate, preferenceloader, net.angelxwind.appsyncunified, com.notdbrand.vdirect
 Filename: debians/com.emoticonyt.veteris_1.7.2-B_iphoneos-arm.deb
 Size: 348376
 MD5sum: a9aeb4ef4703be4599cb9893adb92870
@@ -29,19 +29,19 @@ Author: Electimon <electimon@gmail.com>
 Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
 Name: Veteris
 
-Package: com.notdbrand.veterisredirect
-Version: 1.7.2-4+debug
+Package: com.notdbrand.vdirect
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Notdbrand
 Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate, preferenceloader
 Filename: debians/redirect.deb
 Size: 17800
 MD5sum: b0a3d618b3c3253cbd98ca5ac8e97541
 SHA1: bc08ff7b97eb17930e94f6a2303b77755051f46a
 SHA256: f5c4b83ea24b025b4fc48e96ec4e3f66ec735584ecf935b494c95f5e3fad151a
 Section: Tweaks
-Description: Redirect Veteris 1.7.2 to any server.
+Description: Redirect Veteris 1.7.2 to a custom server
 Author: Notdbrand
-Name: VeterisRedirect
+Name: Veteris redirect
 
