@@ -22,7 +22,7 @@ Size: 483652
 MD5sum: 1002318bfa27cea6982e4dc1a88bf0d3
 SHA1: 038538c356f44a263cdaeb302435df76be5ae930
 SHA256: fbd6423d974f1f358f071a2524456f7138e2ca44c29fc43a1c225225b3154c61
-Section: Utilities
+Section: Tweaks
 Homepage: http://1pwn.ixmoe.com/
 Description: Legacy client layout option for accessing classic store utilities.
 Author: Electimon <electimon@gmail.com>
