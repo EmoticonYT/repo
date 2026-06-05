@@ -12,16 +12,30 @@ Section: Tweaks
 Description: Meta-package installer for Veteris (Revived). Automatically chains the core application and custom redirection components.
 Name: Veteris (Revived)
 
+Package: com.emoticonyt.veteris
+Version: 1.7.2-B
+Architecture: iphoneos-arm
+Maintainer: Emoticon
+Depends: mobilesubstrate, preferenceloader, net.angelxwind.appsyncunified, com.ixmoe.1pwn.Veteris, com.notdbrand.vdirect
+Filename: debians/com.emoticonyt.veteris_1.7.2-B_iphoneos-arm.deb
+Size: 348376
+MD5sum: a9aeb4ef4703be4599cb9893adb92870
+SHA1: 073c545e9044b5e919b1faa716e7467a031bfdd5
+SHA256: 1070d03390e8ef146f921c67750d24f54d75e1b247e62b377429fb98e6adea50
+Description: An App Store for legacy iOS
+Author: Electimon
+Name: Veteris (Revived)
+
 Package: com.ixmoe.1pwn.Veteris
 Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync
 Filename: debians/v.deb
-Size: 483652
-MD5sum: 1002318bfa27cea6982e4dc1a88bf0d3
-SHA1: 038538c356f44a263cdaeb302435df76be5ae930
-SHA256: fbd6423d974f1f358f071a2524456f7138e2ca44c29fc43a1c225225b3154c61
+Size: 483646
+MD5sum: a701fea8fa8c4b03e26645984e746ac9
+SHA1: 971831f9c3f2c7e7c185e1dd392e7d1c3972bce5
+SHA256: 3e859485ad46a50fdb5cfeb1f338e107c64a6e2c44ff169b1fcf9e86cecb60d4
 Section: Tweaks
 Homepage: http://1pwn.ixmoe.com/
 Description: Legacy client layout option for accessing classic store utilities.
@@ -44,3 +58,4 @@ Section: Tweaks
 Description: Redirect Veteris 1.7.2 to a custom server
 Author: Notdbrand
 Name: Veteris redirect
+
