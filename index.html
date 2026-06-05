@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>repo.me</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="repo-header">
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <img src="CydiaIcon.png" alt="Repository Icon" />
-          <h1>repo.me</h1>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mb-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title mb-3">repo.me</h5>
-          <p class="card-text mb-4">
-            a modern apt repository template built by the community.
-          </p>
-          <div class="d-flex flex-wrap gap-2">
-            <a class="btn btn-primary" href="sileo://source/https://REPLACEHERE"
-              >Add to Sileo</a
-            >
-            <a
-              class="btn btn-primary"
-              href="zbra://sources/add/https://REPLACEHERE"
-              >Add to Zebra</a
-            >
-            <a class="btn btn-primary" href="apt-repo://https://REPLACEHERE"
-              >Add to Saily</a
-            >
-            <a
-              class="btn btn-primary"
-              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://REPLACEHERE"
-              >Add to Cydia</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoticonYT/Repo - Cydia/Sileo Repository</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 40px;
+        }
+        .repo-logo {
+            width: 128px;
+            height: 128px;
+            border-radius: 28px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #f0f6fc;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 11pt;
+            color: #8b949e;
+            margin: 0 0 24px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-size: 11pt;
+            font-weight: 600;
+            border-radius: 6px;
+            border: 1px solid rgba(240, 246, 24c, 0.1);
+        }
+        .btn:hover {
+            background-color: #2ea043;
+        }
+        .section-title {
+            text-align: left;
+            font-size: 13pt;
+            font-weight: 600;
+            color: #f0f6fc;
+            margin: 40px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #21262d;
+        }
+        .package-list {
+            text-align: left;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .package-item {
+            display: block;
+            padding: 16px;
+            border-bottom: 1px solid #21262d;
+        }
+        .package-item:last-child {
+            border-bottom: none;
+        }
+        .package-name {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #58a6ff;
+            margin: 0 0 4px 0;
+        }
+        .package-desc {
+            font-size: 10pt;
+            color: #8b949e;
+            margin: 0 0 8px 0;
+        }
+        .package-meta {
+            font-size: 9pt;
+            color: #484f58;
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+        }
+        .footer {
+            margin-top: 60px;
+            font-size: 9pt;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
     <div class="container">
-      <h2 class="section-title">Featured Packages</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-header">Old Package</div>
-            <div class="card-body">
-              <p class="card-text">
-                This is a sample package with minimal information. It also
-                simulates an old package that's incompatible only with iOS lower
-                than 7.0.
-              </p>
-              <a
-                class="btn btn-primary"
-                href="depictions/web/?p=com.example.oldsample"
-                >More info</a
-              >
-            </div>
-          </div>
+        <div class="header">
+            <img src="CydiaIcon.png" alt="EmoticonYT/Repo Logo" class="repo-logo">
+            <h1>EmoticonYT/Repo</h1>
+            <p class="subtitle">Tweaks by Emoticon</p>
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://emoticonyt.github.io/repo/" class="btn">Add to Cydia</a>
         </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-header">New Package</div>
-            <div class="card-body">
-              <p class="card-text">
-                This is a sample package with lots of information.
-              </p>
-              <a
-                class="btn btn-primary"
-                href="depictions/web/?p=com.example.newsample"
-                >More info</a
-              >
-            </div>
-          </div>
+
+        <div class="section-title">Available Packages (1)</div>
+        <ul class="package-list">
+            <li class="package-item">
+                <div class="package-name">Veteris (Revived)</div>
+                <div class="package-desc">A functional client layout revival for accessing legacy iOS stores and platform tweaks.</div>
+                <div class="package-meta">Identifier: com.emoticonyt.veteris &bull; Version: 1.7.2-B</div>
+            </li>
+        </ul>
+
+        <div class="footer">
+            Generated via automated terminal deployment configuration tools &bull; repo.me
         </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
