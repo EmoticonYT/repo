@@ -18,10 +18,10 @@ Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync
 Filename: debians/v.deb
-Size: 484306
-MD5sum: f2d6c53be6b33a98665af70375dcc9d6
-SHA1: e56cb72d8e8fcf37b5545b419d12523cf3c401ca
-SHA256: 86596bc69d7dd75229e245fa8ac66c3191c7b7ded512aec18f2ccb5d1f4f9c0c
+Size: 484354
+MD5sum: 82e80e23926d86545411c74b34febdd3
+SHA1: f11ab668d4140a7e329227763fb795d213efe0b8
+SHA256: f072226cd115163f9bcd620cc9858e9f33d199c3617336baa78724b3ffc1f013
 Section: Utilities
 Homepage: http://1pwn.ixmoe.com/
 Description: A Client for the Veteris Server.
@@ -36,10 +36,10 @@ Maintainer: Notdbrand
 Installed-Size: 152
 Depends: mobilesubstrate, preferenceloader
 Filename: debians/redirect.deb
-Size: 17800
-MD5sum: b0a3d618b3c3253cbd98ca5ac8e97541
-SHA1: bc08ff7b97eb17930e94f6a2303b77755051f46a
-SHA256: f5c4b83ea24b025b4fc48e96ec4e3f66ec735584ecf935b494c95f5e3fad151a
+Size: 20088
+MD5sum: d8b89b7f92a502e00bd264cf44e570a1
+SHA1: cae25f60f61c7d4f8c0fe2940bd77092af9bd682
+SHA256: 5a8b19bee20788e5192eb6965b2708594605114b7d0dbf9e86c5e5ca1b857289
 Section: Tweaks
 Description: Redirect Veteris 1.7.2 to a custom server
 Author: Notdbrand
