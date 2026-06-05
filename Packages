@@ -1,8 +1,22 @@
-Package: com.ixmoe.1pwn.veteris
+Package: com.emoticonyt.veteris
 Version: 1.7.2-B
 Architecture: iphoneos-arm
 Maintainer: Emoticon
-Depends: mobilesubstrate, preferenceloader, net.angelxwind.appsyncunified, com.notdbrand.vdirect
+Depends: mobilesubstrate, preferenceloader, net.angelxwind.appsyncunified, com.ixmoe.1pwn.veteris, com.notdbrand.vdirect
+Filename: debians/veteris_revived_meta.deb
+Size: 700
+MD5sum: b70be5ce9b0ea48d3f3a5a2fa6f864fd
+SHA1: ea4da54542fa869fdc0ea32f02b4193cc9631437
+SHA256: 84fcaa5f88856d7ac2e641c61e5ee41b2f649c0ad967b3bf55f21e1ae50b8b62
+Section: Tweaks
+Description: Meta-package installer for Veteris (Revived). Automatically chains the core application and custom redirection components.
+Name: Veteris (Revived)
+
+Package: com.emoticonyt.veteris
+Version: 1.7.2-B
+Architecture: iphoneos-arm
+Maintainer: Emoticon
+Depends: mobilesubstrate, preferenceloader
 Filename: debians/com.emoticonyt.veteris_1.7.2-B_iphoneos-arm.deb
 Size: 348376
 MD5sum: a9aeb4ef4703be4599cb9893adb92870
