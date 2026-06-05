@@ -1,0 +1,14 @@
+Package: com.emoticonyt.veteris
+Version: 1.7.2-B
+Architecture: iphoneos-arm
+Maintainer: Emoticon
+Depends: mobilesubstrate, preferenceloader
+Filename: debians/com.emoticonyt.veteris_1.7.2-B_iphoneos-arm.deb
+Size: 348376
+MD5sum: a9aeb4ef4703be4599cb9893adb92870
+SHA1: 073c545e9044b5e919b1faa716e7467a031bfdd5
+SHA256: 1070d03390e8ef146f921c67750d24f54d75e1b247e62b377429fb98e6adea50
+Description: An App Store for legacy iOS
+Author: Electimon
+Name: Veteris (Revived)
+
